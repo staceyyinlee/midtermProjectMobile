@@ -1,0 +1,227 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+	font-size: 100%;
+	background-color: #FFFFFF;
+	font-family: Montserrat;
+	margin: 0;
+	padding: 0;
+}
+
+
+h1 {
+	font-family: Castellar;
+	font-size: 4em;
+}
+ 
+
+nav {
+  background-color: #F55656; 
+  color: #f5f256; 
+  padding: 20px; 
+  width: 100%;
+  font-family: 'Castelar', Castellar, serif;
+  font-size: 1.8vw;
+}
+
+nav ul {
+  list-style-type: none; 
+  display: flex; 
+  justify-content: center; 
+  margin: 0; 
+  padding: 0; 
+}
+
+nav ul li {
+  margin: 0 10px; 
+}
+
+nav a {
+  color: #f5f256; 
+  text-decoration: none; 
+  padding: 5px; 
+  transition: background-color 0.3s ease; 
+  text-size-adjust: auto;
+}
+
+nav a:hover {
+  background-color: #a81505; 
+  margin: 0px;
+}
+
+
+.indexColumn {
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin-left: 30px;
+	margin-right: 30px;
+}t
+
+
+.indexDiv {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 25px;
+}
+
+.indexDiv h2 {
+	font-size: 40px;
+	color: #F55656;
+
+}
+
+.indexDiv img {
+	width: 70%;
+}
+
+.indexDiv p {
+	font-size: 22px;
+}
+
+.indexDiv a {
+	font-size: 25px;
+	color: black;
+}
+
+
+  .indexColumn {
+  	display: flex;
+  	justify-content: left;
+  	flex-flow: column wrap;
+  	align-items: center;
+  	flex-basis: 48%;
+  }
+
+  .indexColumn img{
+  	max-width: 100%;
+  	height: auto;
+  }
+
+  .indexColumn h2{
+  	font-family: 'Castelar', Castellar, serif;
+    font-size: 4vw;
+    letter-spacing: 0.5vw;
+  }
+
+  .indexResources {
+  	color: #F55656;
+  	text-align: center;
+  	display: flex;
+  	justify-content: center;
+  	flex-flow: column wrap;
+  	width: 100%;
+  	margin-left: 0;
+  	margin-bottom: 0;
+  	background-color: #f5f256;
+  }
+
+  .indexResources h2 {
+  	font-family: 'Castelar', Castellar, serif;
+    font-size: 3vw;
+    letter-spacing: 0.5vw;
+  } 
+
+  .indexResources ul {
+  	list-style-type: disc; 
+    margin: 0; 
+    padding: 0;
+  } 
+
+  .indexResources li {
+  	margin: 10px 0;
+  } 
+
+
+  .indexResources a {
+  	font-size: 25px;
+  	color: black;
+  }
+
+
+  @font-face {
+    font-family: 'Castelar';
+    src: url('CASTELAR.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .header {
+    background-image: url('chinatownMain.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .title {
+    font-family: 'Castelar', Castellar, serif;
+    font-size: 11vw;
+    letter-spacing: 0.5vw;
+    color: #f5f256;
+    text-shadow: 0 0 0px black;
+  }
+
+  .headerG {
+    background-image: url('groceryStore.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .titleG {
+    font-family: 'Castelar', Castellar, serif;
+    font-size: 8vw;
+    letter-spacing: 0.5vw;
+    color: #f5f256;
+    text-shadow: 0 0 0px black;
+  }
+
+  .headerF {
+    background-image: url('food.jpeg');
+    background-position: center;
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+  }
+
+  .titleF {
+    font-family: 'Castelar', Castellar, serif;
+    font-size: 8vw;
+    letter-spacing: 0.5vw;
+    color: #f5f256;
+    text-shadow: 0 0 0px black;
+  }
+
+  @media only screen and (max-width: 600px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+}
