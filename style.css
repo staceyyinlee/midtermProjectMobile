@@ -214,6 +214,9 @@ nav a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 1vmin;
+    font-size: 3vw;
+
   }
 
   nav ul {
@@ -222,6 +225,6 @@ nav a:hover {
   }
 
   nav ul li {
-    margin: 10px 0;
+    margin: 5px 0;
   }
 }
